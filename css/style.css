@@ -49,6 +49,9 @@ a {
 }
 
 /* HEADER */
+.header-accent {
+   color: var(--main-color);
+}
 
 .logo-link {
    font-family: Raleway;
@@ -64,23 +67,31 @@ a {
    font-size: 26px;
 }
 
-.header-nav-list-item,
 .link {
    line-height: 1.15;
    letter-spacing: 0.02em;
    color: var(--black-color);
 }
 
+.header-nav-list-item,
 .link:hover,
 .link:focus {
    color: var(--main-color);
 }
 
-.header-contact-item {
+.header-contact-item .link {
    line-height: 1.15;
    letter-spacing: 0.02em;
    color: var(--primary-text-color);
 }
+
+.header-contact-item .link:hover,
+.header-contact-item .link:focus {
+   line-height: 1.15;
+   letter-spacing: 0.02em;
+   color: var(--main-color);
+}
+
 
 /* Hero */
 
@@ -100,6 +111,7 @@ a {
 
 .hero-button {
    padding: 10px 32px;
+   font-weight: 700;
    line-height: 1.85;
    color: var(--white-color);
    background-color: var(--main-color);
