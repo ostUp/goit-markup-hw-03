@@ -147,7 +147,7 @@ body {
 .advantages-item-paragraph {
    line-height: 1.15;
    letter-spacing: 0.03em;
-   color: var(--grey-text);
+   color: var(--primary-text-color);
 }
 
 
@@ -190,15 +190,18 @@ body {
    width: 270px;
 }
 
-.our-team-item-description {}
-
-.our-team-item-description-heading,
-.our-team-item-paragraph {
+.our-team-item-description {
    font-size: 16px;
    line-height: 1.2;
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--black-color);
+}
+
+.our-team-item-description-heading {}
+
+.our-team-item-paragraph {
+   color: var(--primary-text-color);
 }
 
 /* Footer section */
