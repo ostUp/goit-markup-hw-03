@@ -40,6 +40,8 @@ body {
    line-height: 26px;
    letter-spacing: 0.03em;
    cursor: pointer;
+   font-weight: 500;
+   align-items: center;
 }
 
 .btn:hover,
