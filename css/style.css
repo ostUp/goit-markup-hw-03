@@ -282,17 +282,33 @@ body {
    background-color: var(--black-bg-color);
 }
 
+.footer-wrapper {
+   padding: 60px 0;
+}
+
+.footer-logo {
+   /* margin-bottom: 20px; */
+}
+
 .footer>.container>.logo-link {
    color: var(--white-color);
 }
 
-.footer-address {}
+.footer-address {
+   margin-top: 20px;
+}
 
 .footer-list {}
 
-.footer-address-item {}
+.footer-address-item {
+
+}
+.footer-address-item+.footer-address-item{
+   margin-top: 9px;
+}
 
 .footer-address-link {
+   font-weight: normal;
    line-height: 1.7;
    letter-spacing: 0.03em;
    font-style: normal;
