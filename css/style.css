@@ -143,6 +143,7 @@ body {
 .hero-section {
    padding-bottom: 200px;
    background-color: var(--black-bg-color);
+   text-align: center;
 }
 
 .hero-heading {
@@ -157,7 +158,6 @@ body {
 }
 
 .hero-button {
-   /* Як центрувати цю кнопку? */
    padding: 10px 32px;
    font-weight: 700;
    line-height: 1.85;
@@ -234,6 +234,7 @@ body {
 }
 
 .our-team-heading {
+   margin-bottom: 50px;
    font-size: 36px;
    line-height: 1.2;
    text-align: center;
