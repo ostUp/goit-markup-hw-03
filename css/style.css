@@ -288,9 +288,7 @@ body {
    padding: 60px 0;
 }
 
-.footer-logo {
-   /* margin-bottom: 20px; */
-}
+/* .footer-logo {} */
 
 .footer>.container>.logo-link {
    color: var(--white-color);
@@ -335,9 +333,9 @@ body {
    padding-bottom: 50px;
 }
 
-.portfolio-button-list-item {}
+/* .portfolio-button-list-item {} */
 
-.portfolio-button {}
+/* .portfolio-button {} */
 
 /* Portfolio cards list section */
 
@@ -363,7 +361,7 @@ body {
    margin-bottom: 0;
 }
 
-.portfolio-cards-item-link {}
+/* .portfolio-cards-item-link {} */
 
 .potrfolio-cards-item-img {
    width: 370px;
