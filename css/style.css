@@ -141,10 +141,12 @@ body {
 
 
 .hero-section {
+   padding-bottom: 200px;
    background-color: var(--black-bg-color);
 }
 
 .hero-heading {
+   padding: 200px 237px 30px;
    font-weight: 900;
    font-size: 44px;
    line-height: 1.35;
@@ -165,21 +167,32 @@ body {
 
 /* Advantages section */
 
-.advantages-section {}
+/* .advantages-section {} */
 
-.advantages-heading {}
+.advantages-heading {
+   display: none;
+}
 
-.advantages-list {}
 
-.advantages-list-item {}
+.advantages-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.advantages-list-item {
+   flex-direction: row;
+   max-width: 270px;
+}
 
 .advantages-item-heading {
+   margin-bottom: 10px;
    line-height: 1.15;
    letter-spacing: 0.03em;
    text-transform: uppercase;
 }
 
 .advantages-item-paragraph {
+   font-weight: normal;
    line-height: 1.15;
    letter-spacing: 0.03em;
    color: var(--primary-text-color);
