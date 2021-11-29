@@ -201,9 +201,10 @@ body {
 
 /* What we do section */
 
-.what-we-do-section {}
+/* .what-we-do-section {} */
 
 .what-we-do-heading {
+   margin-bottom: 50px;
    font-weight: bold;
    font-size: 36px;
    line-height: 42px;
@@ -211,11 +212,16 @@ body {
    letter-spacing: 0.03em;
 }
 
-.what-we-do-list {}
+.what-we-do-list {
+   display: flex;
+   justify-content: space-between;
+}
 
-.what-we-do-item {}
+/* .what-we-do-item {} */
 
-.what-we-do-img {}
+.what-we-do-img {
+   max-width: 370px;
+}
 
 /* Our team section */
 
