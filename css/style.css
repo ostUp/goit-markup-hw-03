@@ -157,6 +157,7 @@ body {
 }
 
 .hero-button {
+   /* Як центрувати цю кнопку? */
    padding: 10px 32px;
    font-weight: 700;
    line-height: 1.85;
@@ -298,12 +299,11 @@ body {
    margin-top: 20px;
 }
 
-.footer-list {}
+/* .footer-list {} */
 
-.footer-address-item {
+/* .footer-address-item {} */
 
-}
-.footer-address-item+.footer-address-item{
+.footer-address-item+.footer-address-item {
    margin-top: 9px;
 }
 
@@ -322,13 +322,17 @@ body {
 
 /* PORFOLIO! */
 
-.portfolio-heading {
-   display: none;
-}
+/* .portfolio-heading {} */
 
 /* Portfolio button list section */
 
-.portfolio-button-list {}
+.portfolio-button-list {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   max-width: 611px;
+   padding-bottom: 50px;
+}
 
 .portfolio-button-list-item {}
 
@@ -336,12 +340,26 @@ body {
 
 /* Portfolio cards list section */
 
-.portfolio-cards-list {}
+.portfolio-cards-list {
+   display: flex;
+   flex-wrap: wrap;
+}
 
 .portfolio-cards-list-item {
+   max-width: 370px;
    background-color: var(--white-color);
    border: 1px solid var(--outline-border);
    box-sizing: border-box;
+   margin-right: 30px;
+   margin-bottom: 30px;
+}
+
+.portfolio-cards-list-item:nth-child(3n) {
+   margin-right: 0;
+}
+
+.portfolio-cards-list-item:nth-last-child(-3+n) {
+   margin-bottom: 0;
 }
 
 .portfolio-cards-item-link {}
@@ -350,7 +368,9 @@ body {
    width: 370px;
 }
 
-.portfolio-cards-item-description {}
+.portfolio-cards-item-description {
+   margin: 20px 24px;
+}
 
 .portfolio-cards-item-heading {
    font-size: 18px;
