@@ -368,15 +368,19 @@ body {
 
 .potrfolio-cards-item-img {
    width: 370px;
+   display: block;
+   max-width: 100%;
+   height: auto
 }
 
 .portfolio-cards-item-description {
+   padding: 20px 24px;
    border: 1px solid var(--outline-border);
    border-top: none;
-   padding: 20px 24px;
 }
 
 .portfolio-cards-item-heading {
+   margin-bottom: 4px;
    font-size: 18px;
    line-height: 2;
    color: var(--black-color);
