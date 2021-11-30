@@ -54,11 +54,12 @@ body {
 
 .container {
    margin: 0 auto;
-   max-width: 1170px;
+   max-width: 1200px;
+   padding: 0 15px;
 }
 
 .section {
-   margin: 94px 0;
+   padding: 94px 0;
 }
 
 /* Header */
@@ -73,11 +74,11 @@ body {
    justify-content: space-between;
 }
 
-/* 
+
 .header-nav {
-   display: flex;
-   align-items: center;
-} */
+   margin-left: 93px;
+
+}
 
 .logo-link {
    font-family: Raleway;
@@ -94,18 +95,19 @@ body {
 
 .header-nav-list {
    display: flex;
-   margin-left: 93px;
 }
 
 .header-nav-list-item+.header-nav-list-item {
    margin-left: 50px;
 }
 
-.header-nav-list-item {
-   display: block;
-   padding: 32px 0;
-}
+/* .header-nav-list-item {} */
 
+.header-nav-list-item .link {
+   display: block;
+   padding: 31px 0;
+
+}
 
 .header-nav-list-item,
 .link:hover,
@@ -141,17 +143,19 @@ body {
 
 
 .hero-section {
-   padding-bottom: 200px;
+   padding: 200px 0;
    background-color: var(--black-bg-color);
    text-align: center;
 }
 
 .hero-heading {
-   padding: 200px 237px 30px;
+   width: 696px;
+   margin: auto;
+   margin-bottom: 30px;
+   /* padding: 200px 237px 30px; */
    font-weight: 900;
    font-size: 44px;
    line-height: 1.35;
-   text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
    color: var(--white-color);
@@ -194,7 +198,7 @@ body {
 
 .advantages-item-paragraph {
    font-weight: normal;
-   line-height: 1.15;
+   line-height: 1.70;
    letter-spacing: 0.03em;
    color: var(--primary-text-color);
 }
@@ -229,7 +233,6 @@ body {
 
 .our-team-section {
    background-color: var(--grey-color);
-   padding: 94px 0;
    margin: 0;
 }
 
@@ -259,6 +262,7 @@ body {
 }
 
 .our-team-item-description {
+   padding: 30px 0;
    font-size: 16px;
    line-height: 1.2;
    text-align: center;
@@ -268,25 +272,23 @@ body {
 
 .our-team-item-description-heading {
    /* padding: 30px 60px; */
-   margin: 30px 0 10px;
+   margin-bottom: 10px;
    text-align: center;
 }
 
 .our-team-item-paragraph {
    color: var(--primary-text-color);
    font-weight: normal;
-   margin-bottom: 30px;
 }
 
 /* Footer section */
 
 .footer {
    background-color: var(--black-bg-color);
-}
-
-.footer-wrapper {
    padding: 60px 0;
 }
+
+/* .footer-wrapper {} */
 
 /* .footer-logo {} */
 
@@ -321,6 +323,8 @@ body {
 
 /* PORFOLIO! */
 
+
+
 /* .portfolio-heading {} */
 
 /* Portfolio button list section */
@@ -330,7 +334,7 @@ body {
    justify-content: space-between;
    margin: 0 auto;
    max-width: 611px;
-   padding-bottom: 50px;
+   margin-bottom: 50px;
 }
 
 /* .portfolio-button-list-item {} */
@@ -345,9 +349,8 @@ body {
 }
 
 .portfolio-cards-list-item {
-   max-width: 370px;
+   width: 370px;
    background-color: var(--white-color);
-   border: 1px solid var(--outline-border);
    box-sizing: border-box;
    margin-right: 30px;
    margin-bottom: 30px;
@@ -368,7 +371,9 @@ body {
 }
 
 .portfolio-cards-item-description {
-   margin: 20px 24px;
+   border: 1px solid var(--outline-border);
+   border-top: none;
+   padding: 20px 24px;
 }
 
 .portfolio-cards-item-heading {
