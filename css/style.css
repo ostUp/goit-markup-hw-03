@@ -23,6 +23,12 @@ body {
    line-height: normal;
 }
 
+img {
+   display: block;
+   min-width: 100%;
+   height: auto;
+}
+
 .link {
    line-height: 1.15;
    letter-spacing: 0.02em;
@@ -186,7 +192,7 @@ body {
 
 .advantages-list-item {
    flex-direction: row;
-   max-width: 270px;
+   width: 270px;
 }
 
 .advantages-item-heading {
@@ -206,7 +212,9 @@ body {
 
 /* What we do section */
 
-.what-we-do-section {padding-top: 0;}
+.what-we-do-section {
+   padding-top: 0;
+}
 
 .what-we-do-heading {
    margin-bottom: 50px;
@@ -222,11 +230,11 @@ body {
    justify-content: space-between;
 }
 
-/* .what-we-do-item {} */
-
-.what-we-do-img {
-   max-width: 370px;
+.what-we-do-item {
+   width: 370px;
 }
+
+/* .what-we-do-img {} */
 
 /* Our team section */
 
@@ -258,7 +266,7 @@ body {
 }
 
 .our-team-item-img {
-   max-width: 270px;
+   width: 270px;
 }
 
 .our-team-item-description {
