@@ -206,7 +206,7 @@ body {
 
 /* What we do section */
 
-/* .what-we-do-section {} */
+.what-we-do-section {padding-top: 0;}
 
 .what-we-do-heading {
    margin-bottom: 50px;
